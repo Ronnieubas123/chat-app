@@ -13,30 +13,30 @@ This project is a nodejs react socket.io and tailwind css and mongoDB for databa
 2. go to backend-api and run the npm install and nodemon
 3. go to socket.io and run npm install and nodemon
 
-#VERSION
-node v18.16.0
-npm v9.6.7
+# VERSION
+1. node v18.16.0
+2. npm v9.6.7
 
 # Nodejs dependencies
-express": "^4.18.2
-mongoose": "^7.1.2
-jsonwebtoken": "^9.0.0
-validator": "^13.9.0
-mongoose": "^7.1.2
-bcrypt": "^5.1.0
-cors": "^2.8.5
-dotenv": "^16.0.3
+1. express": "^4.18.2
+2. mongoose": "^7.1.2
+3. jsonwebtoken": "^9.0.0
+4. validator": "^13.9.0
+5. mongoose": "^7.1.2
+6. bcrypt": "^5.1.0
+7. cors": "^2.8.5
+8. dotenv": "^16.0.3
 
 # Socket version
-socket.io": "^4.6.1
+1. socket.io": "^4.6.1
 
 # React dependencies
-react": "^18.2.0
-moment": "^2.29.4
-react-dom": "^18.2.0
-react-input-emoji": "^5.0.2
-react-router-dom": "^6.11.2
-socket.io-client": "^4.6.1
+1. react": "^18.2.0
+2. moment": "^2.29.4
+3. react-dom": "^18.2.0
+4. react-input-emoji": "^5.0.2
+5. react-router-dom": "^6.11.2
+6. socket.io-client": "^4.6.1
 
 
 
