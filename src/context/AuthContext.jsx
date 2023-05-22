@@ -45,9 +45,10 @@ export const AuthContextProvider = ({children}) => {
         }
         localStorage.setItem("User", JSON.stringify(response));
         setUser(null);
+        location.reload();
     }, [registerInfo]);
 
-    //Login
+    //Signin
     const updateLoginInfo = useCallback((info) => {
         setLoginInfo(info);
     }, []);
@@ -71,7 +72,7 @@ export const AuthContextProvider = ({children}) => {
         setUser(response);
 
         
-
+        
     }, [loginInfo]);
 
     //Signin

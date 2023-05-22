@@ -31,16 +31,11 @@ const UserChat = ({chat, user}) => {
                 </div>
                 <span className={
                     onlineUsers?.some((user) => user?.userId === recipientUser?._id) 
-                    ? "flex w-3 h-3 bg-green-500 rounded-full" 
-                    : "flex w-3 h-3 bg-gray-200 rounded-full"
+                    ? "flex w-3 h-3 bg-green-500 rounded-full relative right-2 top-2" 
+                    : "flex w-3 h-3 bg-gray-200 rounded-full relative right-2 top-2"
                 }>
                 </span>    
                 <div className="ml-2 text-sm font-semibold">{recipientUser?.name}</div>
-                <div
-                    className="flex items-center justify-center ml-auto text-xs text-white bg-red-500 h-4 w-4 rounded leading-none"
-                >
-                    2
-                </div>
     </>);
 }
  
