@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Chat App
 
 This project is a nodejs react socket.io and tailwind css and mongoDB for database.
 
